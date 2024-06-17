@@ -23,5 +23,5 @@ cd ~
 #enable user websites
 mkdir -p -v /etc/skel/public_html
 a2enmod userdir
-echo "Restarting apache2 webserver..."
+echo "Restarting apache2 webserver...."
 systemctl restart apache2
